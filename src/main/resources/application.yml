@@ -1,0 +1,18 @@
+#define app name
+spring.application.name: deferred-mvc
+
+# logs configuration
+logging:
+  file: log/${spring.application.name}.log
+  level:
+    org.springframework.boot: INFO
+    org.maddog.mvc: DEBUG
+
+# define ANSI output
+spring.output.ansi.enabled: ALWAYS
+
+#Disable management endpoints security
+management.security.enabled: false
+
+# set async timeout (in millis)
+spring.mvc.async.request-timeout: 90000
