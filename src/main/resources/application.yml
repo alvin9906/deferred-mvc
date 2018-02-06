@@ -6,7 +6,7 @@ logging:
   file: log/${spring.application.name}.log
   level:
     org.springframework.boot: INFO
-    org.maddog.mvc: DEBUG
+    com.battletech.maddog.poc.mvc: DEBUG
 
 # define ANSI output
 spring.output.ansi.enabled: ALWAYS

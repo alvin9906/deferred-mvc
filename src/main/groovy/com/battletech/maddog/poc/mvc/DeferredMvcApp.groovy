@@ -1,4 +1,4 @@
-package org.maddog.mvc
+package com.battletech.maddog.poc.mvc
 
 import org.springframework.aop.interceptor.AsyncUncaughtExceptionHandler
 import org.springframework.boot.SpringApplication
@@ -16,7 +16,7 @@ import java.util.concurrent.Executor
 @Configuration
 @EnableAutoConfiguration
 @EnableAsync(proxyTargetClass = true)
-@ComponentScan(['org.maddog.mvc'])
+@ComponentScan(['com.battletech.maddog.poc.mvc'])
 @SpringBootApplication
 class DeferredMvcApp implements AsyncConfigurer {
 

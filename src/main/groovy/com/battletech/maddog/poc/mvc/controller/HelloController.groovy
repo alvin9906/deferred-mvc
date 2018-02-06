@@ -1,6 +1,6 @@
-package org.maddog.mvc.controller
+package com.battletech.maddog.poc.mvc.controller
 
-import org.maddog.mvc.facade.HelloFacade
+import com.battletech.maddog.poc.mvc.facade.HelloFacade
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Autowired

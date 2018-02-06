@@ -1,4 +1,4 @@
-package org.maddog.mvc.service
+package com.battletech.maddog.poc.mvc.service
 
 import org.springframework.stereotype.Service
 
